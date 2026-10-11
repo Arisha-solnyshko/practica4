@@ -1,0 +1,13 @@
+a=b          -> ACCEPT
+b=-c         -> ACCEPT
+c=a+b        -> ACCEPT
+d=a*b        -> ACCEPT
+a=(b)        -> ACCEPT
+b=12.34      -> ACCEPT
+c=0.5/d      -> ACCEPT
+e=a          -> REJECT
+a=1e2        -> REJECT
+a=b+         -> REJECT
+a=1..2       -> REJECT
+a=(b*c       -> REJECT
+
